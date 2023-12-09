@@ -9,14 +9,7 @@ const sequelize = new Sequelize(
     config.dbPassword, // password database
     {
       host: config.dbHost,
-      dialect: 'postgresql' ,
-      dialectOptions: {
-        ssl: {
-          require: true,
-          rejectUnauthorized: false // Use apenas se necessário, pode não ser seguro em produção.
-        }
-      }
-
+      dialect: 'postgresql' 
     }
   );
 
