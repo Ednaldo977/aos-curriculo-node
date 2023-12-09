@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos compilados
+*.out
+*.min.js
+
+# Arquivos de configuração
+.env
+
+# Diretórios específicos
+/dist/
+/tmp/
+/.pnp/
+/.pnp.js
