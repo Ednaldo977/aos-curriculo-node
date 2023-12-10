@@ -8,7 +8,7 @@ class Person extends Model {
             sequelize,
             tableName: PERSON_TABLE,
             modelName: 'Person',
-            timestamps: true
+            timestamps: false
         }
     }
 } 
