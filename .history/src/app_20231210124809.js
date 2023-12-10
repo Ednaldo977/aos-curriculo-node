@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req,res) => {
-    res.send('Backend - NodeJS - Express + BANCODEDADOS + CRUD API REST ');
+    res.send('Backend - NodeJS - Express + MySQL  +CRUD API REST +');
 });
 
 routerApi(app);

@@ -23,17 +23,17 @@ const PersonSchema = {
     nome: {
         allowNull: false,
         type: DataTypes.STRING,
-        field:'nome'
+        field:'name'
     },
-    experiencia:{ 
+    address:{ 
         allowNull:false,
         type: DataTypes.STRING,
-        field: 'experiencia'
+        field: 'address'
     },
-    idade:{
+    phone:{
         allowNull: true,
         type: DataTypes.INTEGER,
-        field: 'idade'
+        field: 'phone'
     } 
 }
   

@@ -33,7 +33,7 @@ const PersonSchema = {
     idade:{
         allowNull: true,
         type: DataTypes.INTEGER,
-        field: 'idade'
+        field: 'phone'
     } 
 }
   
